@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ziyangdev/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ziyangdev/static/js/main.f3645150.chunk.js",
+    "main.js.map": "/ziyangdev/static/js/main.f3645150.chunk.js.map",
+    "runtime-main.js": "/ziyangdev/static/js/runtime-main.e2aa4dbc.js",
+    "runtime-main.js.map": "/ziyangdev/static/js/runtime-main.e2aa4dbc.js.map",
+    "static/js/2.72221cd2.chunk.js": "/ziyangdev/static/js/2.72221cd2.chunk.js",
+    "static/js/2.72221cd2.chunk.js.map": "/ziyangdev/static/js/2.72221cd2.chunk.js.map",
+    "index.html": "/ziyangdev/index.html",
+    "precache-manifest.540652508375db7dde5a0524d2a1b89c.js": "/ziyangdev/precache-manifest.540652508375db7dde5a0524d2a1b89c.js",
+    "service-worker.js": "/ziyangdev/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/ziyangdev/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.72221cd2.chunk.js.LICENSE.txt": "/ziyangdev/static/js/2.72221cd2.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ziyangdev/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2aa4dbc.js",
+    "static/js/2.72221cd2.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.f3645150.chunk.js"
+  ]
+}
