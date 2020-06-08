@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/Temp.css";
+import "../styles/styles.css";
 
 function Projects() {
   return (
-    <div className='Temp'>
+    <div className='main'>
       <h2>Projects</h2>
       <p>Website under construction...</p>
     </div>

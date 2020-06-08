@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/Temp.css";
+import "../styles/styles.css";
 
 function Contacts() {
   return (
-    <div className='Temp'>
+    <div className='main'>
       <h2>Contacts</h2>
       <p>Website under construction...</p>
     </div>
