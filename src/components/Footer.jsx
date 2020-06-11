@@ -4,7 +4,7 @@ import "../styles/styles.css";
 export default function Footer() {
   return (
     <div className='footer'>
-      <p>Â© {new Date().getFullYear()} ziyang.dev</p>
+      <p>© {new Date().getFullYear()} ziyang.dev</p>
     </div>
   );
 }

@@ -13,6 +13,7 @@
   border: none;
   height: calc(100vh - 30px);
   width: 100%;
+  align-items: center;
 }
 
 .text {
@@ -23,7 +24,7 @@
 .title {
   color: #fff;
   position: absolute;
-  left: 50%;
+  left: 11%;
   top: 30%;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: xx-large;
@@ -35,14 +36,14 @@
 }
 
 .IntroImage {
-  height: 100vh;
+  height: 92vh;
   width: 100%;
   object-fit: cover;
 }
 
 .fade-in-section {
   opacity: 0;
-  transform: translateY(20vh);
+  transform: translateY(10vh);
   visibility: hidden;
   transition: opacity 0.3s ease-out, transform 0.8s ease-out;
   will-change: opacity, visibility;
@@ -63,7 +64,7 @@
 }
 
 .about {
-  margin-left: 50%;
+  margin-left: 11%;
   margin-right: 1rem;
   margin-top: 5rem;
   margin-bottom: 7rem;
@@ -75,4 +76,9 @@
 
 .about-text {
   font-size: x-large;
+}
+
+.download-button {
+  position: absolute;
+  margin-left: 90%;
 }

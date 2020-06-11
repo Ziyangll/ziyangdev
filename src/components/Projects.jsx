@@ -9,13 +9,16 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 300,
+    minWidth: 260,
+    maxWidth: 260,
     margin: "3rem",
     flex: 1,
     flexDirection: "row",
+    flexWrap: "wrap",
   },
   cards: {
     display: "flex",
+    flexWrap: "wrap",
   },
 });
 

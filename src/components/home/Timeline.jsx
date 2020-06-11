@@ -17,13 +17,31 @@ export default function MyTimeline() {
         className='vertical-timeline-element--work'
         contentStyle={{ background: "#3282b8", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #3282b8" }}
-        date='2020'
+        date='2019 - present'
         iconStyle={{ background: "#3282b8", color: "#fff" }}
+
+        icon={<SchoolIcon />}>
+        <h3 className='vertical-timeline-element-title'>
+          Majoring in Software Engineering
+        </h3>
+        <h4 className='vertical-timeline-element-subtitle'>
+          Auburn University
+        </h4>
+        <p>4.0 GPA</p>
+        <p>I am currently on the Dean's List.</p>
+        <p>I am a member of the Auburn Competitive Programming Team</p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className='vertical-timeline-element--education'
+        contentStyle={{ background: "#0f4c75", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  #0f4c75" }}
+        date='2020'
+        iconStyle={{ background: "#0f4c75", color: "#fff" }}
         icon={<CodeIcon />}>
         <h3 className='vertical-timeline-element-title'>
           Made this website in React
         </h3>
-        <p>Learned React and how websites works.</p>
+        <p>Learned the MERN stack and DevOp.</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className='vertical-timeline-element--education'
@@ -45,18 +63,18 @@ export default function MyTimeline() {
         className='vertical-timeline-element--education'
         contentStyle={{ background: "#0f4c75", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #0f4c75" }}
-        date='2019 - present'
+        date='2019'
         iconStyle={{ background: "#0f4c75", color: "#fff" }}
-        icon={<SchoolIcon />}>
+        icon={<CodeIcon />}>
         <h3 className='vertical-timeline-element-title'>
-          Majored in Software Engineering
+          Competed in the Southeast USA Regional Contest.
         </h3>
-        <h4 className='vertical-timeline-element-subtitle'>
-          Auburn University
-        </h4>
-        <p>4.0 GPA</p>
-        <p>I am currently on the Dean's List.</p>
+        <h4 className='vertical-timeline-element-subtitle'>ICPC 2019 fall</h4>
+        <p>
+          My first experience with competitive programming.
+        </p>
       </VerticalTimelineElement>
+
       <VerticalTimelineElement
         className='vertical-timeline-element--education'
         contentStyle={{ background: "#0f4c75", color: "#fff" }}
@@ -72,7 +90,7 @@ export default function MyTimeline() {
         </h4>
         <p>Graduated High School with honor.</p>
         <p>
-          Me and my friends started a club to learn and teach <b>Python</b>.
+          Me and my friends started a club to learn and teach Python.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
