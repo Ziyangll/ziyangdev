@@ -9,16 +9,15 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 260,
-    maxWidth: 260,
+    minWidth: 300,
+    maxWidth: 300,
     margin: "3rem",
-    flex: 1,
-    flexDirection: "row",
-    flexWrap: "wrap",
   },
   cards: {
     display: "flex",
     flexWrap: "wrap",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
 
@@ -27,14 +26,14 @@ export default function Contacts() {
 
   return (
     <div className={classes.cards}>
-      <Card className={classes.root}>
+      <Card className={classes.root + " grow"}>
         <CardActionArea
           onClick={() => window.location.replace("mailto:zl@auburn.edu")}>
           <CardMedia
             component='img'
             alt='project 1'
             height='140'
-            image={"https://image.flaticon.com/icons/svg/941/941565.svg"}
+            image={"https://image.flaticon.com/icons/svg/561/561127.svg"}
             title='project 1'
           />
           <CardContent>
@@ -44,7 +43,7 @@ export default function Contacts() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card className={classes.root}>
+      <Card className={classes.root + " grow"}>
         <CardActionArea
           onClick={() =>
             window.location.replace("https://www.linkedin.com/in/ziyangg/")
@@ -53,7 +52,7 @@ export default function Contacts() {
             component='img'
             alt='project 2'
             height='140'
-            image={"https://image.flaticon.com/icons/svg/124/124011.svg"}
+            image={"https://image.flaticon.com/icons/svg/889/889122.svg"}
             title='project 2'
           />
           <CardContent>
@@ -63,7 +62,7 @@ export default function Contacts() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card className={classes.root}>
+      <Card className={classes.root + " grow"}>
         <CardActionArea
           onClick={() =>
             window.location.replace("https://github.com/Ziyangll")
@@ -73,7 +72,7 @@ export default function Contacts() {
             alt='project 3'
             height='140'
             image={
-              "https://github.githubassets.com/images/modules/open_graph/github-mark.png"
+              "https://image.flaticon.com/icons/svg/2111/2111425.svg"
             }
             title='project 3'
           />
@@ -84,7 +83,7 @@ export default function Contacts() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card className={classes.root}>
+      <Card className={classes.root + " grow"}>
         <CardActionArea
           onClick={() =>
             window.location.replace("https://twitter.com/ziyangdev")

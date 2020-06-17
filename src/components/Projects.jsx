@@ -9,16 +9,15 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 260,
-    maxWidth: 260,
+    minWidth: 300,
+    maxWidth: 300,
     margin: "3rem",
-    flex: 1,
-    flexDirection: "row",
-    flexWrap: "wrap",
   },
   cards: {
     display: "flex",
     flexWrap: "wrap",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
 
@@ -27,7 +26,7 @@ export default function Projects() {
 
   return (
     <div className={classes.cards}>
-      <Card className={classes.root}>
+      <Card className={classes.root + " grow"}>
         <CardActionArea
           onClick={() =>
             window.location.replace("https://github.com/Ziyangll")
@@ -49,7 +48,7 @@ export default function Projects() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card className={classes.root}>
+      <Card className={classes.root + " grow"}>
         <CardActionArea
           onClick={() =>
             window.location.replace("https://github.com/Ziyangll")
@@ -71,7 +70,7 @@ export default function Projects() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card className={classes.root}>
+      <Card className={classes.root + " grow"}>
         <CardActionArea
           onClick={() =>
             window.location.replace("https://github.com/Ziyangll")
@@ -93,7 +92,7 @@ export default function Projects() {
           </CardContent>
         </CardActionArea>
       </Card>
-      <Card className={classes.root}>
+      <Card className={classes.root + " grow"}>
         <CardActionArea
           onClick={() =>
             window.location.replace("https://github.com/Ziyangll")
@@ -111,6 +110,50 @@ export default function Projects() {
             </Typography>
             <Typography variant='body2' color='textSecondary' component='p'>
               project 4
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+      <Card className={classes.root + " grow"}>
+        <CardActionArea
+          onClick={() =>
+            window.location.replace("https://github.com/Ziyangll")
+          }>
+          <CardMedia
+            component='img'
+            alt='project 5'
+            height='140'
+            image={process.env.PUBLIC_URL + "/projects-images/blob5.svg"}
+            title='project 5'
+          />
+          <CardContent>
+            <Typography gutterBottom variant='h5' component='h2'>
+              project 5
+            </Typography>
+            <Typography variant='body2' color='textSecondary' component='p'>
+              project 5
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+      <Card className={classes.root + " grow"}>
+        <CardActionArea
+          onClick={() =>
+            window.location.replace("https://github.com/Ziyangll")
+          }>
+          <CardMedia
+            component='img'
+            alt='project 6'
+            height='140'
+            image={process.env.PUBLIC_URL + "/projects-images/blob6.svg"}
+            title='project 6'
+          />
+          <CardContent>
+            <Typography gutterBottom variant='h5' component='h2'>
+              project 6
+            </Typography>
+            <Typography variant='body2' color='textSecondary' component='p'>
+              project 6
             </Typography>
           </CardContent>
         </CardActionArea>
