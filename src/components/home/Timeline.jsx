@@ -10,16 +10,17 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
+import PastTimelineElement from "./PastTimelineElement";
+
 export default function MyTimeline() {
   return (
     <VerticalTimeline>
       <VerticalTimelineElement
-        className='vertical-timeline-element--work'
+        className='vertical-timeline-element'
         contentStyle={{ background: "#3282b8", color: "#fff" }}
         contentArrowStyle={{ borderRight: "7px solid  #3282b8" }}
         date='2019 - present'
         iconStyle={{ background: "#3282b8", color: "#fff" }}
-
         icon={<SchoolIcon />}>
         <h3 className='vertical-timeline-element-title'>
           Majoring in Software Engineering
@@ -29,70 +30,40 @@ export default function MyTimeline() {
         </h4>
         <p>4.0 GPA</p>
         <p>I am currently on the Dean's List.</p>
-        <p>I am a member of the Auburn Competitive Programming Team</p>
+        <p>I am an officer on the Auburn Artificial Intelligence Club</p>
       </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className='vertical-timeline-element--education'
-        contentStyle={{ background: "#0f4c75", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0f4c75" }}
-        date='2020'
-        iconStyle={{ background: "#0f4c75", color: "#fff" }}
-        icon={<CodeIcon />}>
-        <h3 className='vertical-timeline-element-title'>
-          Made this website in React
-        </h3>
-        <p>Learned the MERN stack and DevOp.</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className='vertical-timeline-element--education'
-        contentStyle={{ background: "#0f4c75", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0f4c75" }}
-        date='2020'
-        iconStyle={{ background: "#0f4c75", color: "#fff" }}
-        icon={<EmojiEmotionsIcon />}>
-        <h3 className='vertical-timeline-element-title'>
-          Won my first Hackathon
-        </h3>
-        <h4 className='vertical-timeline-element-subtitle'>Auburn Hacks</h4>
-        <p>
-          Me and my team created a finance website for trading fake stocks with
-          real data.
-        </p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className='vertical-timeline-element--education'
-        contentStyle={{ background: "#0f4c75", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0f4c75" }}
-        date='2019'
-        iconStyle={{ background: "#0f4c75", color: "#fff" }}
-        icon={<CodeIcon />}>
-        <h3 className='vertical-timeline-element-title'>
-          Competed in the Southeast USA Regional Contest.
-        </h3>
-        <h4 className='vertical-timeline-element-subtitle'>ICPC 2019 fall</h4>
-        <p>
-          My first experience with competitive programming.
-        </p>
-      </VerticalTimelineElement>
-
-      <VerticalTimelineElement
-        className='vertical-timeline-element--education'
-        contentStyle={{ background: "#0f4c75", color: "#fff" }}
-        contentArrowStyle={{ borderRight: "7px solid  #0f4c75" }}
-        date='2015 - 2019'
-        iconStyle={{ background: "#0f4c75", color: "#fff" }}
-        icon={<SchoolIcon />}>
-        <h3 className='vertical-timeline-element-title'>
-          Became interested in computer science
-        </h3>
-        <h4 className='vertical-timeline-element-subtitle'>
-          Homewood High School
-        </h4>
-        <p>Graduated High School with honor.</p>
-        <p>
-          Me and my friends started a club to learn and teach Python.
-        </p>
-      </VerticalTimelineElement>
+      <PastTimelineElement
+        data='2020'
+        icon={<CodeIcon />}
+        title='Made this website in React'
+        subtitle='ziyang.dev'
+        contentOne='This personal portfolio website displays my projects.'
+        contentTwo='Learned the MERN stack and DevOp.'
+      />
+      <PastTimelineElement
+        data='2020'
+        icon={<EmojiEmotionsIcon />}
+        title='Hackathon project wins best over all'
+        subtitle='MLH Auburn Hacks'
+        contentOne='We made a finance website for real time stock trading.'
+        contentTwo='My first Hackathon.'
+      />
+      <PastTimelineElement
+        data='2019'
+        icon={<CodeIcon />}
+        title='Competed in the Southeast USA Regional Contest.'
+        subtitle='ICPC 2019 fall'
+        contentOne='Joined Auburn Competitive Programming Team.'
+        contentTwo='My first competitive programming contest.'
+      />
+      <PastTimelineElement
+        data='2015 - 2019'
+        icon={<SchoolIcon />}
+        title='Became interested in computer science'
+        subtitle='Homewood High School'
+        contentOne='Graduated High School with honor.'
+        contentTwo='Me and my friends started a club to learn and teach Python.'
+      />
       <VerticalTimelineElement
         iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
         icon={<StarIcon />}

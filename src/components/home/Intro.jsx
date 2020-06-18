@@ -11,10 +11,10 @@ export default function Intro() {
           <h1>I am Ziyang Li</h1>
         </FadeInSection>
       </div>
-      <img
+      {/* <img
         className='IntroImage'
         src={process.env.PUBLIC_URL + "/minimal-sunset.jpg"}
-        alt='ziyang li'></img>
+        alt='ziyang li'></img> */}
     </div>
   );
 }
