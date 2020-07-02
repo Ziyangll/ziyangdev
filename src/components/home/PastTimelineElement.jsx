@@ -16,7 +16,7 @@ export default function PastTimelineElement({
       contentStyle={{ background: "#0f4c75", color: "#fff" }}
       contentArrowStyle={{ borderRight: "7px solid  #0f4c75" }}
       date={data}
-      iconStyle={{ background: "#0f4c75", color: "#fff" }}
+      iconStyle={{ background: "#000", color: "#fff" }}
       icon={icon}>
       <h3 className='vertical-timeline-element-title'>{title}</h3>
       <h4 className='vertical-timeline-element-subtitle'>{subtitle}</h4>

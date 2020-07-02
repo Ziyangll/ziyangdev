@@ -7,8 +7,8 @@ export default function Intro() {
     <div className='content'>
       <div className='title'>
         <FadeInSection key='title'>
-          <h1>Hello</h1>
-          <h1>I am Ziyang Li</h1>
+          <h1 class="title-text">Hello</h1>
+          <h1 class="text">I am Ziyang Li</h1>
         </FadeInSection>
       </div>
       {/* <img

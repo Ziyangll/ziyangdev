@@ -1,24 +1,19 @@
 import React from "react";
 import "../../styles/styles.css";
-import FadeInSection from "../FadeInSection";
-import ReactMarkdown from "react-markdown";
 
 export default function About() {
-  const input =
-    "# I am a fullstack web developer\n\n" +
-    "I am experienced in the MERN stack (Mongodb Express React Node.js)\n\n" +
-    "I am familiar with both AWS and Google Cloud Platform\n\n" +
-    "I am also experienced with " +
-    "Java," +
-    "Python," +
-    "and C++";
-
   return (
     <div className='about'>
-      <FadeInSection>
-        <ReactMarkdown className='text' source={input} />
+        <h1 class="title-text">Introduction</h1>
+        <h3 class="text">I am a 19 years old student studying <span class="title-text">Software Engineering</span></h3>
+        <h3 class="text"><span class="title-text">Fullstack</span> web and mobile developer</h3>
+        <h3 class="text">MERN stack <span class="title-text">Mongodb  Express  React  Node.js</span></h3>
+        <h3 class="text"><span class="title-text">Google Cloud Platform</span>, AWS</h3>
+        <h3 class="text">Swift, <span class="title-text">React-Native</span></h3>
+        <br/>
+        <h1 class="text">Programming Languages</h1>
+        <h3 class="title-text">JavaScript, Python, C++, Java, and Swift</h3>
         <br></br>
-      </FadeInSection>
     </div>
   );
 }

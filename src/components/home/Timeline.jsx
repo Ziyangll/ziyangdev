@@ -65,7 +65,7 @@ export default function MyTimeline() {
         contentTwo='Me and my friends started a club to learn and teach Python.'
       />
       <VerticalTimelineElement
-        iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+        iconStyle={{ background: "#000", color: "#fff" }}
         icon={<StarIcon />}
       />
     </VerticalTimeline>
