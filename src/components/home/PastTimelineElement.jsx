@@ -1,6 +1,7 @@
 import React from "react";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import "../../styles/styles.css";
 
 export default function PastTimelineElement({
   data,
@@ -13,8 +14,8 @@ export default function PastTimelineElement({
   return (
     <VerticalTimelineElement
       className='vertical-timeline-element--education'
-      contentStyle={{ background: "#0f4c75", color: "#fff" }}
-      contentArrowStyle={{ borderRight: "7px solid  #0f4c75" }}
+      contentStyle={{ background: "#000", color: "#fff" }}
+      contentArrowStyle={{ borderRight: "7px solid  #fa1616" }}
       date={data}
       iconStyle={{ background: "#000", color: "#fff" }}
       icon={icon}>

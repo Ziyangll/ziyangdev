@@ -1,10 +1,12 @@
+* {
+    margin: 0;
+}
 .main {
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: calc(10px + 2vmin);
   color: #fff;
 }
 
@@ -18,6 +20,7 @@
 
 .text {
   color: #fff;
+  background-color: #000;
 }
 
 .title-text {
@@ -25,14 +28,26 @@
   background-color: #fff;
 }
 
+.persona-text {
+    color: white;
+    background-color: cyan;
+}
+
+.persona-text-two {
+    color: cyan;
+    background-color: white;
+}
 .title {
   position: absolute;
   left: 11%;
   top: 30%;
   display: flex;
+  font-weight: 1000;
   font-size: xx-large;
 }
-
+.subtitle {
+  font-weight: 300;
+}
 .content {
   height: 90vh;
   margin-bottom: 10rem;
