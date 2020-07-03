@@ -12,7 +12,7 @@ export default function App() {
     <Router>
       <div>
         <ThemeProvider theme={theme}>
-          <AppBar position='static'>
+          <AppBar position='static' style={{ boxShadow: 'none'}}>
             <Toolbar>
               <Button component={Link} to='/' color='inherit'>
                 Ziyang
