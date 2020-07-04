@@ -39,8 +39,9 @@
 }
 .title {
   position: absolute;
-  left: 11%;
-  top: 30%;
+  left: 11vw;
+  right: 11vw;
+  top: 30vh;
   display: flex;
   font-weight: 1000;
   font-size: xx-large;
