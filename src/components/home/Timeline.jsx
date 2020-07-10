@@ -43,7 +43,7 @@ export default function MyTimeline() {
       <PastTimelineElement
         data='2020'
         icon={<EmojiEmotionsIcon />}
-        title='Hackathon win first place'
+        title='Hackathon Winner'
         subtitle='MLH Auburn Hacks'
         contentOne='We made a finance website for real time stock trading'
         contentTwo='Used Bootstrap HTML5 CSS3 and Flask'
