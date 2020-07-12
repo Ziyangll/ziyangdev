@@ -23,12 +23,12 @@ export default function MyTimeline() {
         iconStyle={{ background: "white", color: "black" }}
         icon={<SchoolIcon />}>
         <h3 className='vertical-timeline-element-title'>
-          I am majoring in <span className="text">Software Engineering </span>
+          I am majoring in <span>Software Engineering </span>
         </h3>
         <h4 className='vertical-timeline-element-subtitle'>
           Auburn University
         </h4>
-        <p><span className="text">4.0 GPA</span></p>
+        <p><span>4.0 GPA</span></p>
         <p>I am currently on the Dean's List</p>
         <p>Member of the Auburn Competitive Programming Team</p>
       </VerticalTimelineElement>
