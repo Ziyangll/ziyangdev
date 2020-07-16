@@ -34,7 +34,7 @@ export default function Contacts() {
             alt='project 1'
             height='140'
             image={"https://image.flaticon.com/icons/svg/561/561127.svg"}
-            title='project 1'
+            title='Email'
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='h2'>
@@ -50,7 +50,7 @@ export default function Contacts() {
           }>
           <CardMedia
             component='img'
-            alt='project 2'
+            alt='LinkedIn'
             height='140'
             image={"https://image.flaticon.com/icons/svg/889/889122.svg"}
             title='project 2'
@@ -69,7 +69,7 @@ export default function Contacts() {
           }>
           <CardMedia
             component='img'
-            alt='project 3'
+            alt='GitHub'
             height='140'
             image={
               "https://image.flaticon.com/icons/svg/2111/2111425.svg"
@@ -90,7 +90,7 @@ export default function Contacts() {
           }>
           <CardMedia
             component='img'
-            alt='project 4'
+            alt='Twitter'
             height='140'
             image={"https://image.flaticon.com/icons/svg/733/733579.svg"}
             title='project 4'
