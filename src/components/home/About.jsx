@@ -11,7 +11,7 @@ export default function About() {
         </h3>
         <br/>
         <h1 class="text">Programming Languages</h1>
-        <h3 class="title-text">Python, JavaScript, and Java</h3>
+        <h3 class="title-text">Python, Java, and JavaScript</h3>
         <br></br>
     </div>
   );
