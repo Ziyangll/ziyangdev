@@ -1,5 +1,6 @@
 * {
-    margin: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 .main {
   height: 100%;
@@ -29,13 +30,13 @@
 }
 
 .persona-text {
-    color: white;
-    background-color: cyan;
+  color: white;
+  background-color: cyan;
 }
 
 .persona-text-two {
-    color: cyan;
-    background-color: white;
+  color: cyan;
+  background-color: white;
 }
 .title {
   position: absolute;
@@ -91,7 +92,7 @@
 }
 
 .softText {
-  color: lightgray;
+  font-weight: 300;
 }
 
 .about-text {
@@ -108,4 +109,11 @@
 }
 .grow:hover {
   transform: scale(1.1);
+}
+
+tableHead {
+  font-weight: 700;
+  
+  background-color: #000;
+  color: #fff;
 }
