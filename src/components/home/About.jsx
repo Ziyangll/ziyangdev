@@ -13,7 +13,7 @@ function createData(key, database, backend, frontend, language) {
 }
 
 const rows = [
-  createData(0, "MongoDB", "Express", "React", "JavaScript"),
+  createData(0, "MongoDB", "Node/Express", "React", "JavaScript"),
   createData(1, "PostgreSQL", "Flask", "", "Python"),
   createData(2, "", "", "", "Java"),
 ];
