@@ -14,7 +14,7 @@ function createData(key, database, backend, frontend, language) {
 
 const rows = [
   createData(0, "MongoDB", "Node/Express", "React", "JavaScript"),
-  createData(1, "PostgreSQL", "Flask", "", "Python"),
+  createData(1, "", "Flask", "", "Python"),
   createData(2, "", "", "", "Java"),
 ];
 
@@ -27,7 +27,7 @@ export default function About() {
         Auburn University
       </h3>
       <h3 class='softText text'>
-        My hobbies are Competitive Programming, Cooking, and Mechanical
+        My hobbies are Competitive Programming, Cooking, Drawing, and Mechanical
         Keyboards
       </h3>
 
@@ -47,7 +47,7 @@ export default function About() {
                 Frontend
               </TableCell>
               <TableCell style={{ fontWeight: 700, color: "#000" }}>
-                Language
+                Languages
               </TableCell>
             </TableRow>
           </TableHead>
