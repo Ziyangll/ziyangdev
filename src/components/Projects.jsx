@@ -29,7 +29,7 @@ export default function Projects() {
         websiteLink='https://todos-283807.uc.r.appspot.com/'
         GitHubLink='https://github.com/Ziyangll/Todos'
         imgPath='/projects-images/blob.svg'
-        title='Todolist CRUD app'
+        title='Todolist'
         subtitle='MongoDB Express React Node'
       />
       <ProjectCard
@@ -43,7 +43,7 @@ export default function Projects() {
         websiteLink='https://valorantlineups.online/'
         GitHubLink='https://github.com/Ziyangll/valorant-lineups'
         imgPath='/projects-images/blob3.svg'
-        title='Valorant lineups'
+        title='Valorant Lineups'
         subtitle='React'
       />
       <ProjectCard
