@@ -16,42 +16,45 @@ const useStyles = makeStyles({
     minWidth: 300,
     maxWidth: 300,
     margin: "3rem",
-  }
+  },
 });
 
-export default function ProjectCard( { websiteLink, GitHubLink, imgPath, title, subtitle,} ) {
+export default function ProjectCard({
+  websiteLink,
+  GitHubLink,
+  imgPath,
+  title,
+  subtitle,
+}) {
   const classes = useStyles();
 
-    return(
-      <Card className={classes.root + " grow"}>
-        <CardActionArea
-          onClick={() =>
-              window.location.href = {websiteLink}
-          }>
-          <CardMedia
-            component='img'
-            alt={title}
-            height='140'
-            image={process.env.PUBLIC_URL + imgPath}
-            title={title}
-          />
-          <CardContent>
-            <Typography gutterBottom variant='h5' component='h2'>
-                {title}
-            </Typography>
-            <Typography variant='body2' color='textSecondary' component='p'>
-                {subtitle}
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-            <IconButton aria-label="GitHub" style={{marginLeft: "auto"}}
-                onClick={() =>
-                    window.location.href = {GitHubLink}
-                }>
-                <CodeIcon />
-            </IconButton>
-        </CardActions>
-      </Card>
-    );
+  return (
+    <Card className={classes.root + " grow"}>
+      <CardActionArea onClick={() => window.open({ websiteLink })}>
+        <CardMedia
+          component='img'
+          alt={title}
+          height='140'
+          image={process.env.PUBLIC_URL + imgPath}
+          title={title}
+        />
+        <CardContent>
+          <Typography gutterBottom variant='h5' component='h2'>
+            {title}
+          </Typography>
+          <Typography variant='body2' color='textSecondary' component='p'>
+            {subtitle}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <IconButton
+          aria-label='GitHub'
+          style={{ marginLeft: "auto" }}
+          onClick={() => window.open({ GitHubLink })}>
+          <CodeIcon />
+        </IconButton>
+      </CardActions>
+    </Card>
+  );
 }
