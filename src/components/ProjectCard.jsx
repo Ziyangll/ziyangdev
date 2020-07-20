@@ -30,7 +30,7 @@ export default function ProjectCard({
 
   return (
     <Card className={classes.root + " grow"}>
-      <CardActionArea onClick={() => window.open({ websiteLink })}>
+      <CardActionArea onClick={() => window.open(websiteLink)}>
         <CardMedia
           component='img'
           alt={title}
@@ -51,7 +51,7 @@ export default function ProjectCard({
         <IconButton
           aria-label='GitHub'
           style={{ marginLeft: "auto" }}
-          onClick={() => window.open({ GitHubLink })}>
+          onClick={() => window.open(GitHubLink)}>
           <CodeIcon />
         </IconButton>
       </CardActions>
