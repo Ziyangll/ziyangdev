@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   }
 });
 
-export default function ProjectCard( { websiteLink, GitHubLink, imgPath, alt, title, subtitle,} ) {
+export default function ProjectCard( { websiteLink, GitHubLink, imgPath, title, subtitle,} ) {
   const classes = useStyles();
 
     return(
@@ -30,7 +30,7 @@ export default function ProjectCard( { websiteLink, GitHubLink, imgPath, alt, ti
           }>
           <CardMedia
             component='img'
-            alt={alt}
+            alt={title}
             height='140'
             image={process.env.PUBLIC_URL + imgPath}
             title={title}
@@ -45,7 +45,7 @@ export default function ProjectCard( { websiteLink, GitHubLink, imgPath, alt, ti
           </CardContent>
         </CardActionArea>
         <CardActions>
-            <IconButton aria-label="GitHub" style={{marginLeft: "auto"}} 
+            <IconButton aria-label="GitHub" style={{marginLeft: "auto"}}
                 onClick={() =>
                     window.location.href = {GitHubLink}
                 }>
