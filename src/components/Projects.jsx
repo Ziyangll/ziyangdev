@@ -30,14 +30,14 @@ export default function Projects() {
         GitHubLink='https://github.com/Ziyangll/Todos'
         imgPath='/projects-images/blob.svg'
         title='Todolist'
-        subtitle='MongoDB Express React Node'
+        subtitle='MongoDB Express React Node Google-Cloud'
       />
       <ProjectCard
         websiteLink='https://ziyangll.github.io/GoldenGoose/'
         GitHubLink='https://github.com/Ziyangll/GoldenGoose'
         imgPath='/projects-images/blob2.svg'
         title='Golden Goose'
-        subtitle='Flask MongoDB Bootstrap4 Google-Cloud'
+        subtitle='Flask MongoDB Bootstrap4'
       />
       <ProjectCard
         websiteLink='https://valorantlineups.online/'
