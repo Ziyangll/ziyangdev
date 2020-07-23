@@ -28,13 +28,13 @@ export default function Contacts() {
     <div className={classes.cards}>
       <Card className={classes.root + " grow"}>
         <CardActionArea
-          onClick={() => window.location.replace("mailto:zl@auburn.edu")}>
+          onClick={() => window.open("mailto:ziyangli103@gmail.com")}>
           <CardMedia
             component='img'
-            alt='project 1'
+            alt='Email'
             height='140'
             image={"https://image.flaticon.com/icons/svg/561/561127.svg"}
-            title='Email'
+            title='email'
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='h2'>
@@ -45,15 +45,13 @@ export default function Contacts() {
       </Card>
       <Card className={classes.root + " grow"}>
         <CardActionArea
-          onClick={() =>
-            window.location.replace("https://www.linkedin.com/in/ziyangg/")
-          }>
+          onClick={() => window.open("https://www.linkedin.com/in/ziyangg/")}>
           <CardMedia
             component='img'
             alt='LinkedIn'
             height='140'
             image={"https://image.flaticon.com/icons/svg/889/889122.svg"}
-            title='project 2'
+            title='linkedin'
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='h2'>
@@ -64,17 +62,13 @@ export default function Contacts() {
       </Card>
       <Card className={classes.root + " grow"}>
         <CardActionArea
-          onClick={() =>
-            window.location.replace("https://github.com/Ziyangll")
-          }>
+          onClick={() => window.open("https://github.com/Ziyangll")}>
           <CardMedia
             component='img'
             alt='GitHub'
             height='140'
-            image={
-              "https://image.flaticon.com/icons/svg/2111/2111425.svg"
-            }
-            title='project 3'
+            image={"https://image.flaticon.com/icons/svg/2111/2111425.svg"}
+            title='github'
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='h2'>
@@ -85,19 +79,36 @@ export default function Contacts() {
       </Card>
       <Card className={classes.root + " grow"}>
         <CardActionArea
-          onClick={() =>
-            window.location.replace("https://twitter.com/ziyangdev")
-          }>
+          onClick={() => window.open("https://twitter.com/ziyangdev")}>
           <CardMedia
             component='img'
             alt='Twitter'
             height='140'
             image={"https://image.flaticon.com/icons/svg/733/733579.svg"}
-            title='project 4'
+            title='twitter'
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='h2'>
               Twitter
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+      <Card className={classes.root + " grow"}>
+        <CardActionArea
+          onClick={() => window.open("https://ziyangll.github.io/blog/")}>
+          <CardMedia
+            component='img'
+            alt='Blog'
+            height='140'
+            image={
+              "https://avatars2.githubusercontent.com/u/60530557?s=460&u=c928b805605cb0711affaf0b7c8aa3d965646cf0&v=4"
+            }
+            title='Blog'
+          />
+          <CardContent>
+            <Typography gutterBottom variant='h5' component='h2'>
+              Blog
             </Typography>
           </CardContent>
         </CardActionArea>
