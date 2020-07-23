@@ -8,14 +8,14 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Paper from "@material-ui/core/Paper";
 
-function createData(key, database, backend, frontend, language) {
-  return { key, database, backend, frontend, language };
+function createData(key, language, backend, frontend, database) {
+  return { key, language, backend, frontend, database };
 }
 
 const rows = [
-  createData(0, "MongoDB", "Node/Express", "React", "JavaScript"),
-  createData(1, "", "Flask", "", "Python"),
-  createData(2, "", "", "", "Java"),
+  createData(0, "JavaScript", "Node/Express", "React", "MongoDB"),
+  createData(1, "Python", "Flask", "", ""),
+  createData(2, "Java", "", "", ""),
 ];
 
 export default function About() {
@@ -38,7 +38,7 @@ export default function About() {
           <TableHead>
             <TableRow>
               <TableCell style={{ fontWeight: 700, color: "#000" }}>
-                Database
+                Languages
               </TableCell>
               <TableCell style={{ fontWeight: 700, color: "#000" }}>
                 Backend
@@ -47,17 +47,17 @@ export default function About() {
                 Frontend
               </TableCell>
               <TableCell style={{ fontWeight: 700, color: "#000" }}>
-                Languages
+                Database
               </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {rows.map((row) => (
               <TableRow key={row.key}>
-                <TableCell>{row.database}</TableCell>
+                <TableCell>{row.language}</TableCell>
                 <TableCell>{row.backend}</TableCell>
                 <TableCell>{row.frontend}</TableCell>
-                <TableCell>{row.language}</TableCell>
+                <TableCell>{row.database}</TableCell>
               </TableRow>
             ))}
           </TableBody>
