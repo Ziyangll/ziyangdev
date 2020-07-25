@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 1920 1080" overflow="visible" xml:space="preserve">
+<rect fill="#FF0000" width="1920" height="1080"/>
+<polygon points="847,0 0,0 0,1080 1920,1080 1920,992 1822,659 883,902 1834,184 1052,404 1290,152 "/>
+<polygon fill="#FFFFFF" points="1834,184 1105,845 883,902 "/>
+<polygon fill="#FFFFFF" points="1290,152 1142,379 1052,404 "/>
+<polygon fill="#FFFFFF" points="1822,659 1920,823 1920,992 "/>
+<polyline fill="#00FFFF" points="1920,712 1920,823 1822,659 1105,845 1834,184 1142,379 1290,152 847,0 1065,0 1372,166 1252,309 
+	1898,121 1358,751 1822,600 "/>
+</svg>
