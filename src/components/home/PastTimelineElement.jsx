@@ -15,7 +15,7 @@ export default function PastTimelineElement({
     <VerticalTimelineElement
       className='vertical-timeline-element--education'
       contentStyle={{ background: "#000", color: "#fff" }}
-      contentArrowStyle={{ borderRight: "7px solid  #fa1616" }}
+      contentArrowStyle={{ borderRight: "7px solid  #fff" }}
       date={data}
       iconStyle={{ background: "#000", color: "#fff" }}
       icon={icon}>

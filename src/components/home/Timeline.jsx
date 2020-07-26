@@ -18,7 +18,7 @@ export default function MyTimeline() {
       <VerticalTimelineElement
         className='vertical-timeline-element'
         contentStyle={{ background: "white", color: "black" }}
-        contentArrowStyle={{ borderRight: "7px solid  cyan" }}
+        contentArrowStyle={{ borderRight: "7px solid  white" }}
         date='2019 - present'
         iconStyle={{ background: "white", color: "black" }}
         icon={<SchoolIcon />}>
@@ -28,7 +28,9 @@ export default function MyTimeline() {
         <h4 className='vertical-timeline-element-subtitle'>
           Auburn University
         </h4>
-        <p><span>4.0 GPA</span></p>
+        <p>
+          <span>4.0 GPA</span>
+        </p>
         <p>I am currently on the Dean's List</p>
         <p>Member of the Auburn Competitive Programming Team</p>
       </VerticalTimelineElement>
