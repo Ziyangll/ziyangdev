@@ -16,6 +16,7 @@ const rows = [
   createData(0, "JavaScript", "Node/Express", "React", "MongoDB"),
   createData(1, "Python", "Flask", "", ""),
   createData(2, "Java", "", "", ""),
+  createData(3, "C++", "", "", ""),
 ];
 
 export default function About() {
