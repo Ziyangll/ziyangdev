@@ -1,18 +1,19 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { AppBar, Toolbar, Button, ThemeProvider } from "@material-ui/core";
 import Home from "./components/home/Home";
-import Projects from "./components/Projects";
-import Resume from "./components/Resume";
-import Contacts from "./components/Contacts";
 import theme from "./styles/theme";
+import "./styles/styles.css";
+const Projects = lazy(() => import("./components/Projects"));
+const Resume = lazy(() => import("./components/Resume"));
+const Contacts = lazy(() => import("./components/Contacts"));
 
 export default function App() {
   return (
     <Router>
       <div>
         <ThemeProvider theme={theme}>
-          <AppBar position='static' style={{ boxShadow: 'none'}}>
+          <AppBar position='static' style={{ boxShadow: "none" }}>
             <Toolbar>
               <Button component={Link} to='/' color='inherit'>
                 Ziyang
@@ -29,17 +30,21 @@ export default function App() {
             </Toolbar>
           </AppBar>
         </ThemeProvider>
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
           <Route path='/projects'>
-            <Projects />
+            <Suspense fallback={<div className='text center'>Loading...</div>}>
+              <Projects />
+            </Suspense>
           </Route>
           <Route path='/resume'>
-            <Resume />
+            <Suspense fallback={<div className='text center'>Loading...</div>}>
+              <Resume />
+            </Suspense>
           </Route>
           <Route path='/contacts'>
-            <Contacts />
+            <Suspense fallback={<div className='text center'>Loading...</div>}>
+              <Contacts />
+            </Suspense>
           </Route>
           <Route path='/'>
             <Home />

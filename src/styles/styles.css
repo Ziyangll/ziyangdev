@@ -24,20 +24,17 @@
   background-color: #000;
 }
 
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
 .title-text {
   color: #000;
   background-color: #fff;
 }
 
-.persona-text {
-  color: white;
-  background-color: cyan;
-}
-
-.persona-text-two {
-  color: cyan;
-  background-color: white;
-}
 .title {
   position: absolute;
   left: 11vw;
