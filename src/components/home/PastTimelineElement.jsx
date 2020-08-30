@@ -14,10 +14,10 @@ export default function PastTimelineElement({
   return (
     <VerticalTimelineElement
       className='vertical-timeline-element--education'
-      contentStyle={{ background: "#000", color: "#fff" }}
-      contentArrowStyle={{ borderRight: "7px solid  #fff" }}
+      contentStyle={{ background: "#444", color: "#ddd" }}
+      contentArrowStyle={{ borderRight: "7px solid  #ddd" }}
       date={data}
-      iconStyle={{ background: "#000", color: "#fff" }}
+      iconStyle={{ background: "#444", color: "#ddd" }}
       icon={icon}>
       <h3 className='vertical-timeline-element-title'>{title}</h3>
       <h4 className='vertical-timeline-element-subtitle'>{subtitle}</h4>

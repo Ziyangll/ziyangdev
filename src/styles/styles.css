@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #fff;
+  color: #eee;
 }
 
 .resume {
@@ -20,8 +20,7 @@
 }
 
 .text {
-  color: #fff;
-  background-color: #000;
+  color: #ddd;
 }
 
 .center {
@@ -31,8 +30,7 @@
 }
 
 .title-text {
-  color: #000;
-  background-color: #fff;
+  background-color: #ddd;
 }
 
 .title {
@@ -75,7 +73,8 @@
   margin: 20px 0;
 }
 .footer {
-  color: #fff;
+  color: #eee;
+  background-color: #333;
   margin: 3rem;
   text-align: center;
 }
@@ -111,6 +110,7 @@
 tableHead {
   font-weight: 700;
 
-  background-color: #000;
-  color: #fff;
+  background-color: #333;
+  color: #eee;
 }
+

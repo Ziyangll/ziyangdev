@@ -17,10 +17,10 @@ export default function MyTimeline() {
     <VerticalTimeline>
       <VerticalTimelineElement
         className='vertical-timeline-element'
-        contentStyle={{ background: "white", color: "black" }}
-        contentArrowStyle={{ borderRight: "7px solid  white" }}
+        contentStyle={{ background: "#444", color: "#ddd" }}
+        contentArrowStyle={{ borderRight: "7px solid  #ddd" }}
         date='2019 - present'
-        iconStyle={{ background: "white", color: "black" }}
+        iconStyle={{ background: "#444", color: "#ddd" }}
         icon={<SchoolIcon />}>
         <h3 className='vertical-timeline-element-title'>
           I am majoring in <span>Software Engineering </span>

@@ -22,48 +22,52 @@ const rows = [
 export default function About() {
   return (
     <div className='about'>
-      <h1 class='title-text'>Introduction</h1>
-      <h3 class='softText text'>
-        I am currently a student studying <span>Software Engineering</span> at
-        Auburn University
-      </h3>
-      <h3 class='softText text'>
-        My hobbies are Competitive Programming, Cooking, Drawing, and Mechanical
-        Keyboards
-      </h3>
+      <div>
+        <h1 class='title-text'>Introduction</h1>
+        <h3 class='softText text'>
+          I am currently a student studying <span>Software Engineering</span> at
+          Auburn University
+        </h3>
+        <h3 class='softText text'>
+          My hobbies are Competitive Programming, Cooking, Drawing, and
+          Mechanical Keyboards
+        </h3>
+      </div>
 
       <br />
-      <h1 class='text'>Technology</h1>
-      <TableContainer className='tableContainer' component={Paper}>
-        <Table className='table' aria-label='simple table'>
-          <TableHead>
-            <TableRow>
-              <TableCell style={{ fontWeight: 700, color: "#000" }}>
-                Languages
-              </TableCell>
-              <TableCell style={{ fontWeight: 700, color: "#000" }}>
-                Backend
-              </TableCell>
-              <TableCell style={{ fontWeight: 700, color: "#000" }}>
-                Frontend
-              </TableCell>
-              <TableCell style={{ fontWeight: 700, color: "#000" }}>
-                Database
-              </TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {rows.map((row) => (
-              <TableRow key={row.key}>
-                <TableCell>{row.language}</TableCell>
-                <TableCell>{row.backend}</TableCell>
-                <TableCell>{row.frontend}</TableCell>
-                <TableCell>{row.database}</TableCell>
+      <div>
+        <h1 class='text'>Technology</h1>
+        <TableContainer className='tableContainer' component={Paper}>
+          <Table className='table' aria-label='simple table'>
+            <TableHead>
+              <TableRow>
+                <TableCell style={{ fontWeight: 700, color: "#333" }}>
+                  Languages
+                </TableCell>
+                <TableCell style={{ fontWeight: 700, color: "#333" }}>
+                  Backend
+                </TableCell>
+                <TableCell style={{ fontWeight: 700, color: "#333" }}>
+                  Frontend
+                </TableCell>
+                <TableCell style={{ fontWeight: 700, color: "#333" }}>
+                  Database
+                </TableCell>
               </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
+            </TableHead>
+            <TableBody>
+              {rows.map((row) => (
+                <TableRow key={row.key}>
+                  <TableCell>{row.language}</TableCell>
+                  <TableCell>{row.backend}</TableCell>
+                  <TableCell>{row.frontend}</TableCell>
+                  <TableCell>{row.database}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </div>
     </div>
   );
 }
