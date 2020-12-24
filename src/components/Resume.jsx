@@ -12,7 +12,7 @@ function Resume() {
 					<Button
 						variant='contained'
 						startIcon={<GetAppIcon />}
-						href='https://docs.google.com/document/d/1aHJuCZOCFbpmeYudKQWdWOiMXtNY0Fp8X9pUo-5hDas/edit?usp=sharing'>
+						href='https://drive.google.com/file/d/1X8CGkpAO3g_e5gmT8QZczrWgbmtfUTjB/view?usp=sharing'>
 						Download
 					</Button>
 				</ThemeProvider>
@@ -21,9 +21,10 @@ function Resume() {
 			<iframe
 				title='resume'
 				className='resume'
-				src='https://docs.google.com/document/d/e/2PACX-1vRJAK5l6JkhtPKW0hojDVVfRXbws6cs0aVHC3ZI1GoTuJho6nYSY53Y0CbzdDoPyO0c0VutEl8PWryF/pub?embedded=true'>
+				src='https://drive.google.com/file/d/1X8CGkpAO3g_e5gmT8QZczrWgbmtfUTjB/preview'>
 				Your browser doesn't support iframes
 			</iframe>
+			
 		</div>
 	)
 }
