@@ -73,8 +73,7 @@
   margin: 20px 0;
 }
 .footer {
-  color: #eee;
-  background-color: #333;
+  color: #333;
   margin: 3rem;
   text-align: center;
 }
@@ -113,4 +112,3 @@ tableHead {
   background-color: #333;
   color: #eee;
 }
-

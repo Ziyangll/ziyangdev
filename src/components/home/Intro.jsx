@@ -32,7 +32,7 @@ export default function Intro() {
               enable: true,
               speed: 2,
             },
-            fpsLimit: 60,
+            fpsLimit: 30,
             detectRetina: true,
           },
         }}

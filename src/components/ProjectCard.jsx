@@ -9,7 +9,7 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
-import CodeIcon from "@material-ui/icons/Code";
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles({
   root: {
@@ -52,7 +52,7 @@ export default function ProjectCard({
           aria-label='GitHub'
           style={{ marginLeft: "auto" }}
           onClick={() => window.open(GitHubLink)}>
-          <CodeIcon />
+          <GitHubIcon />
         </IconButton>
       </CardActions>
     </Card>

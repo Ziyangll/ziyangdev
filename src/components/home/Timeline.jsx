@@ -15,35 +15,16 @@ import PastTimelineElement from "./PastTimelineElement";
 export default function MyTimeline() {
   return (
     <VerticalTimeline>
-      <VerticalTimelineElement
-        className='vertical-timeline-element'
-        contentStyle={{ background: "#444", color: "#ddd" }}
-        contentArrowStyle={{ borderRight: "7px solid  #ddd" }}
-        date='2019 - present'
-        iconStyle={{ background: "#444", color: "#ddd" }}
-        icon={<SchoolIcon />}>
-        <h3 className='vertical-timeline-element-title'>
-          I am majoring in <span>Software Engineering </span>
-        </h3>
-        <h4 className='vertical-timeline-element-subtitle'>
-          Auburn University
-        </h4>
-        <p>
-          <span>4.0 GPA</span>
-        </p>
-        <p>I am currently on the Dean's List</p>
-        <p>Member of the Auburn Competitive Programming Team</p>
-      </VerticalTimelineElement>
       <PastTimelineElement
-        data='2020'
+        data='Jun, 2020'
         icon={<CodeIcon />}
-        title='Made this website in React'
+        title='Created this website with React'
         subtitle='ziyang.dev'
         contentOne='Personal portfolio website to display my projects'
-        contentTwo='Learned the MERN stack and DevOp'
+        contentTwo=''
       />
       <PastTimelineElement
-        data='2020'
+        data='Feb, 2020'
         icon={<EmojiEmotionsIcon />}
         title='Hackathon Winner'
         subtitle='MLH Auburn Hacks'
@@ -51,20 +32,28 @@ export default function MyTimeline() {
         contentTwo='Used Bootstrap HTML5 CSS3 and Flask'
       />
       <PastTimelineElement
-        data='2019'
+        data='Nov, 2019'
         icon={<CodeIcon />}
         title='Competed in the Southeast USA Regional Contest'
         subtitle='ICPC 2019 fall'
         contentOne='Joined Auburn Competitive Programming Team'
-        contentTwo='My first competitive programming contest'
+        contentTwo='Participated in the ICPC competitive programming contest'
+      />
+      <PastTimelineElement
+        data='2019-2023'
+        icon={<SchoolIcon />}
+        title='Majored in Software Engineering'
+        subtitle='Auburn University'
+        contentOne=''
+        contentTwo=''
       />
       <PastTimelineElement
         data='2015 - 2019'
         icon={<SchoolIcon />}
-        title='Became interested in computer science'
+        title='Graduated High School with honors'
         subtitle='Homewood High School'
-        contentOne='Graduated High School with honor'
-        contentTwo='Me and my friends started a club to learn Python'
+        contentOne='Became interested in computer science'
+        contentTwo='Started a programming club'
       />
       <VerticalTimelineElement
         iconStyle={{ background: "white", color: "black" }}
